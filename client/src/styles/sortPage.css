@@ -1,16 +1,15 @@
-.sorting-page-container{
-    margin-top: 20px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
+.sorting-page-container {
+  margin-top: 80px;
+  position: absolute;
+  transform: translate(-60%, -50%);
+  top: 35%;
+  left: 50%;
 }
-.autocomplete-wrapper input{
-    padding: 12px;
-    width: 30vmin;
+.autocomplete-wrapper input {
+  padding: 12px;
+  
 }
 .custom-select {
-    color: black; 
-    width: 30vmin;
-  }
+  color: black;
+  padding: 12px;
+}

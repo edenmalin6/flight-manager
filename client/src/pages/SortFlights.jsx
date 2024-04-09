@@ -63,7 +63,7 @@ const SortFlights = () => {
         className="custom-select"
       />
       {
-        <div>
+        <div className="flights-box">
           {flights.map((flight, index) => (
             <div className="flight-box" key={index}>
               <p>Flight Number: {flight.number}</p>
