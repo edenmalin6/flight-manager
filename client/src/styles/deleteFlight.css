@@ -1,0 +1,16 @@
+.delete-flight-container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 35%;
+  left: 50%;
+  border-radius: 40px;
+  border: solid rgb(39, 62, 97) 2px;
+  padding: 30px;
+  height: 300px;
+}
+.delete-flight-container form {
+  position: relative;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}

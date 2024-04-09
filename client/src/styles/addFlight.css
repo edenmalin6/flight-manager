@@ -1,0 +1,24 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.add-flight-container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 35%;
+  left: 50%;
+  border-radius: 40px;
+  border: solid rgb(39, 62, 97) 2px;
+  padding: 30px;
+  width: 330px;
+}
+.add-flight-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+

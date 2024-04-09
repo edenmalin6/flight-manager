@@ -1,0 +1,25 @@
+
+.login-container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 35%;
+  left: 50%;
+  border-radius: 40px;
+  border: solid rgb(39, 62, 97) 2px;
+  padding: 30px;
+  width: 330px;
+}
+.login-container h1{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.login-container form {
+ margin-top: 50px;
+ line-height: 30px;
+}
+.login-container input{
+    padding: 10px;
+    border-radius: 40px;
+    border: none;
+}
+

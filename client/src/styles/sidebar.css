@@ -1,0 +1,32 @@
+aside {
+  padding-top: 30px;
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(40deg, #0048bd, #44a7fd);
+  border-top-right-radius: 70px;
+}
+.menu {
+  margin-bottom: 40px;
+  font-size: 23px;
+  font-weight: bold;
+}
+aside a {
+  color: antiquewhite;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+}
+aside a:hover {
+  background-color: #44a7fd;
+}
+.links-container button{
+  background-color: #2077d5;
+  border-radius: 1px;
+  padding: 20px;
+}
+.links-container button:hover{
+  background-color: #44a7fd;
+}

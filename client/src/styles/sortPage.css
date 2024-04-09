@@ -1,0 +1,16 @@
+.sorting-page-container{
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.autocomplete-wrapper input{
+    padding: 12px;
+    width: 30vmin;
+}
+.custom-select {
+    color: black; 
+    width: 30vmin;
+  }
