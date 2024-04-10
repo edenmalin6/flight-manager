@@ -49,21 +49,21 @@ const SortFlights = () => {
   return (
     <div className="sorting-page-container">
       {loading && <Loading />}
-      <div className="autocomplete-wrapper">
+      <div className="sort-container">
         <input
           type="text"
           value={inputValue}
           onChange={handleInputChange}
           placeholder="Search flight by AirLine Company..."
         />
-      </div>
       <Select
         options={options}
         onChange={handleSelect}
         className="custom-select"
       />
+      </div>
       {
-        <div className="flights-box">
+        <div className="flights-container">
           {flights.map((flight, index) => (
             <div className="flight-box" key={index}>
               <p>Flight Number: {flight.number}</p>

@@ -27,8 +27,9 @@ const DeleteFlight = () => {
   }
   return (
     <div className="delete-flight-container">
-       {error && <p className="error">{error}</p> }
+      <h1>Delete A Flight Here</h1>
       <form onSubmit={handleDelete}> 
+      {error && <p className="error">{error}</p> }
       <input
         type="number"
         placeholder="Insert the flight number in order to delete..."

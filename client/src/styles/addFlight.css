@@ -4,21 +4,22 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 .add-flight-container {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 35%;
-  left: 50%;
-  border-radius: 40px;
-  border: solid rgb(39, 62, 97) 2px;
-  padding: 30px;
-  width: 330px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
 }
 .add-flight-container form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   gap: 15px;
   margin-top: 30px;
+  width: 40vh;
+  border-radius: 40px;
+  border: solid rgb(39, 62, 97) 2px;
+  padding: 30px;
 }
 

@@ -31,5 +31,6 @@ export const updateGpa = async (studentId, gpa) => {
   );
   return { success: true, message: "Student updated successfully!" };
 };
+
 export class InvalidGpaNumber extends Error {}
 export class InvalidStudentId extends Error {}

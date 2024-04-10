@@ -1,15 +1,23 @@
 .sorting-page-container {
   margin-top: 80px;
-  position: absolute;
-  transform: translate(-60%, -50%);
-  top: 35%;
-  left: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
-.autocomplete-wrapper input {
-  padding: 12px;
-  
+.flights-container{
+  max-width: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;  
+  gap: 10px;
+}
+.sort-container{
+  width: 20rem;
 }
 .custom-select {
   color: black;
   padding: 12px;
 }
+

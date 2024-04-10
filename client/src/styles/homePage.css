@@ -1,13 +1,22 @@
 .controller-container {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 35%;
-  left: 50%;
  margin-top: 80px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
 }
 .controller-container h1{
     margin-bottom: 50px; 
 }
+.flights-box{
+    max-width: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;  
+    gap: 10px;
+}
+
 .flight-box{
     border: solid rgb(34, 85, 162) 3px;
     color: rgb(22, 68, 136) ;
@@ -18,10 +27,4 @@
     line-height: 25px;
     padding: 30px;
     background-color: antiquewhite;
-    position: relative;
-}
-.flights-box{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;  
 }

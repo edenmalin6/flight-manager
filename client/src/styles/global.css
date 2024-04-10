@@ -53,4 +53,5 @@ input::placeholder {
 }
 .error{
   color: #d91818;
+  padding-bottom: 5px;
 }

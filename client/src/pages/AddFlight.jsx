@@ -2,20 +2,13 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { addFlight } from "../services/userService";
 import { useNavigate } from "react-router-dom";
-// import { useAuth } from "../context/AuthProvider";
 
 const AddFlight = () => {
   const [flightNum, setFlightNumber] = useState("");
   const [airlineCompany, setAirlineCompany] = useState("");
   const [numOfPassengers, setNumOfPassengers] = useState("");
   const navigate = useNavigate();
-  // const { verifiedEntrance, setVerifiedEntrance } = useAuth()
-
-  // useEffect(() => {
-  //   if (verifiedEntrance === null) {
-  //     navigate("/")
-  //   }
-  // }, [navigate])
+  
 
   const handleCreateFlight = (e) => {
     e.preventDefault();

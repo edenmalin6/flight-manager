@@ -15,8 +15,8 @@ const LoginPage = () => {
   return (
     <div className="login-container">
       <h1>Login To Your Flight Management System</h1>
-      {error && <p className="error">{error}</p>}
       <form onSubmit={handleSubmit}>
+      {error && <p className="error">{error}</p>}
         <input
         required
         value={password}

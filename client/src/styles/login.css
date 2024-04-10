@@ -1,25 +1,27 @@
-
 .login-container {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 35%;
-  left: 50%;
-  border-radius: 40px;
-  border: solid rgb(39, 62, 97) 2px;
-  padding: 30px;
-  width: 330px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.login-container h1{
+.login-container h1 {
   font-size: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 .login-container form {
- margin-top: 50px;
- line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  border: solid rgb(39, 62, 97) 2px;
+  padding: 50px;
+  display: block;  
 }
-.login-container input{
-    padding: 10px;
-    border-radius: 40px;
-    border: none;
-}
+.login-container input {
 
+  padding: 10px;
+  border-radius: 40px;
+  border: none;
+}
