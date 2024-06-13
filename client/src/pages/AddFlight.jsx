@@ -1,5 +1,4 @@
-import React from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { addFlight } from "../services/userService";
 import { useNavigate } from "react-router-dom";
 

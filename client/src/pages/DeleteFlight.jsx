@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { deleteFlight } from "../services/userService";
 import { useAuth } from "../context/AuthProvider";
 import swal from "sweetalert";
